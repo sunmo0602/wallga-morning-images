@@ -13,29 +13,31 @@ ROOT=Path("incoming/ai-infrastructure-guide-20261011")
 OUT=Path("published-assets/ai-infrastructure-guide-20261011")
 W,H=1080,1350
 def get_licensed_photo():
+    # Stable previously used, attribution-verified Wikimedia Commons image.
+    # No fragile Commons search or license-guessing during scheduled rendering.
+    title="File:DALL·E 2025-01-31 21.58.22 - A realistic image of the interior of a modern data center. The scene features long rows of tall, sleek server racks filled with blinking LED lights. T.webp"
+    artist="Cbrasil0"
+    license_name="cc by-sa 4.0"
+    url="https://commons.wikimedia.org/wiki/"+title.replace(" ","_")
     api="https://commons.wikimedia.org/w/api.php"
-    headers={"User-Agent":"WallgaMorningEditorial/1.0 (editorial licensed photo)"}
-    for term in ("data center server racks interior", "server room rack data center"):
-        r=requests.get(api,params={"action":"query","generator":"search",
-          "gsrsearch":"filetype:bitmap "+term,"gsrnamespace":6,"gsrlimit":35,
-          "prop":"imageinfo","iiprop":"url|extmetadata","iiurlwidth":1600,
-          "format":"json"},headers=headers,timeout=30)
-        r.raise_for_status()
-        for page in r.json().get("query",{}).get("pages",{}).values():
-            try:
-                info=page["imageinfo"][0];meta=info["extmetadata"]
-                license_name=meta.get("LicenseShortName",{}).get("value","").lower()
-                if not any(x in license_name for x in ("cc by","cc0","public domain")):
-                    continue
-                url=info.get("thumburl") or info["url"]
-                raw=requests.get(url,headers=headers,timeout=35);raw.raise_for_status()
-                with Image.open(io.BytesIO(raw.content)) as img:
-                    img.load()
-                    if img.width<1000 or img.height<700:continue
-                    artist=re.sub(r"<[^>]*>"," ",meta.get("Artist",{}).get("value","Unknown")).strip()
-                    return img.convert("RGB"),page["title"],license_name,artist
-            except (requests.RequestException,KeyError,OSError,ValueError):continue
-    raise RuntimeError("No adequately licensed cover photograph. Fail closed.")
+    headers={"User-Agent":"WallgaMorningEditorial/1.0 (photo attribution in Instagram caption)"}
+    r=requests.get(api,params={"action":"query","titles":title,"prop":"imageinfo",
+      "iiprop":"url|extmetadata","iiurlwidth":1600,"format":"json"},headers=headers,timeout=35)
+    r.raise_for_status()
+    pages=r.json().get("query",{}).get("pages",{})
+    for p in pages.values():
+        info=p.get("imageinfo",[])
+        if not info:continue
+        item=info[0];meta=item.get("extmetadata",{})
+        current=meta.get("LicenseShortName",{}).get("value","").lower()
+        if "cc by-sa" not in current:raise RuntimeError("Photo license has changed; abort")
+        raw=requests.get(item.get("thumburl") or item["url"],headers=headers,timeout=35)
+        raw.raise_for_status()
+        with Image.open(io.BytesIO(raw.content)) as img:
+            img.load()
+            if img.width<1000 or img.height<700:raise RuntimeError("Photo too small")
+            return img.convert("RGB"),title,license_name,artist
+    raise RuntimeError("Verified cover photo unavailable; do not silently substitute")
 
 def main():
     OUT.mkdir(parents=True,exist_ok=True)
