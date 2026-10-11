@@ -1,0 +1,85 @@
+{
+  "album_id": "spacex-mobile-spectrum-20261011",
+  "story_id": "spacex-spectrum-telecom-selloff-2026-10-09",
+  "slot": "lunch",
+  "news_date": "2026-10-09",
+  "brand": "wallga.morning",
+  "strategy_id": "winners_losers",
+  "secondary_strategy_ids": [
+    "stock_discovery",
+    "economic_domino"
+  ],
+  "visual_template": "photo_black_gradient_white_editorial_v1",
+  "cover_brand_position": "bottom_right",
+  "slides": 6,
+  "news_score": 95,
+  "news_score_breakdown": {
+    "interest": 29,
+    "stock_relevance": 25,
+    "surprise": 20,
+    "freshness": 12,
+    "save_value": 9
+  },
+  "freshness_hours": 44,
+  "candidate_scores": [
+    {
+      "topic": "SpaceX 800MHz·통신3사 급락",
+      "score": 95
+    },
+    {
+      "topic": "Nvidia·Reflection AI 인수 논의",
+      "score": 92,
+      "excluded": "NVDA 7일 내 중복"
+    },
+    {
+      "topic": "Lumentum AI 광부품 2029 전망",
+      "score": 86
+    },
+    {
+      "topic": "OpenAI 매출 표시 차이",
+      "score": 86
+    }
+  ],
+  "hook_question": "스페이스X 주파수 인수 한 번에 미국 통신 3사는 왜 급락했나?",
+  "editorial_angle": "SpaceX가 위성통신과 지상망을 통합하려는 전략을 발표하면서 기존 이동통신 서비스 회사의 경쟁위험은 커지고 통신탑 서비스 회사의 잠재 수요는 기대되는 대조적 반응을 사실과 전망으로 나누어 설명한다.",
+  "story": {
+    "hook": "스페이스X의 전국 800MHz 저대역 주파수 인수 합의 후 10월 9일 미국 이동통신 3사의 주가가 급락한 이유는 무엇일까?",
+    "what": "2026년 10월 8일 SpaceX와 Grain Management가 전국 800MHz 저대역 주파수 매매 합의를 발표했고, 10월 9일 T-Mobile 주가는 13.2% 하락했다.",
+    "why": "800MHz 저대역은 실내 커버리지에 유리하고 위성 통신망에 지상 네트워크를 결합할 여지를 만든다. 기존 이동통신업체의 진입장벽이 흔들릴 수 있다는 우려가 확산했다.",
+    "so_what": "통신사 TMUS·T·VZ에는 고객 및 요금 경쟁 압력이, 통신탑 사업자 AMT·CCI에는 신규 지상망 인프라 구축 기대가 작동하며 주가가 서로 반대로 움직였다.",
+    "stocks": "TMUS T VZ는 직접 통신 서비스 경쟁에 노출되고, AMT CCI는 기지국·스몰셀 구축 가능성에 대한 간접 노출 종목이다. 어느 쪽도 미래 실적 변화는 확정되지 않았다.",
+    "risk_next": "800MHz 주파수 양도는 아직 FCC 최종 승인 전이며 상용화 일정·기지국 투자·서비스 품질은 불확실하다. 향후 통신사 고객 이탈률 및 통신탑 회사 신규 임대 계약을 점검한다."
+  },
+  "facts_verified": true,
+  "image_rights_verified": true,
+  "duplicate_checked": true,
+  "market_close": false,
+  "sources": [
+    {
+      "url": "https://www.spacex.com/updates/2035/starship-hls-9-tranquility-telemetry",
+      "published_at": "2026-10-08",
+      "role": "official_statement"
+    },
+    {
+      "url": "https://graingp.com/grain-management-announces-definitive-agreement-to-sell-nationwide-800-mhz-spectrum-portfolio-to-spacex/",
+      "published_at": "2026-10-08",
+      "role": "seller_statement"
+    },
+    {
+      "url": "https://www.reuters.com/business/media-telecom/us-european-telecom-stocks-slide-spacex-spectrum-deal-rattles-sector-2026-10-09/",
+      "published_at": "2026-10-09",
+      "role": "stock_reaction"
+    },
+    {
+      "url": "https://arstechnica.com/tech-policy/2026/10/starlink-spectrum-deal-boosts-musk-plan-to-beat-att-t-mobile-and-verizon/",
+      "published_at": "2026-10-09",
+      "role": "technical_context"
+    }
+  ],
+  "photo": {
+    "page": "https://commons.wikimedia.org/wiki/File:CellTower.jpg",
+    "artist": "Nikolai Twin",
+    "license": "CC0 1.0",
+    "note": "generic editorial photograph, not SpaceX"
+  }
+}
