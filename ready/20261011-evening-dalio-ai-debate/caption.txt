@@ -1,0 +1,28 @@
+달리오는 AI 거품을 경고했는데, 나스닥은 왜 올랐을까요?
+
+‘AI 기술이 성장한다’는 이야기와 ‘모든 AI 주식의 현재 가격이 적절하다’는 이야기는 다릅니다.
+
+레이 달리오는 10월 7일 싱가포르 포브스 글로벌 CEO 컨퍼런스에서 AI 투자에 쌓이는 부채와 금리 상승의 위험을 경고했습니다. 반면 10월 9일 미국장 나스닥은 전일 대비 0.6% 상승했고, 10년물 미 국채 금리는 5.24%였습니다(AP).
+
+그렇다면 AI가 틀렸다는 뜻일까요? 그렇지 않습니다. 기업의 AI 매출 성장과 과도한 투자비·차입 부담은 동시에 존재할 수 있습니다.
+
+함께 비교할 미국 상장주·ETF:
+• ORCL — 클라우드·데이터센터 사업. 설비투자와 차입 부담을 함께 관찰
+• CRWV — GPU 인프라 임대. 높은 자본집약도와 고객 집중 위험
+• MSFT — 클라우드·기업 AI. 투자 규모와 현금창출력 비교
+• VRT — 냉각·전력 설비. AI 투자 사이클에 간접 노출
+• QQQ — 나스닥100 ETF. 개별 회사와 다른 분산 노출
+
+다음 체크포인트는 ① 10년물 국채금리 ② 설비투자 대비 잉여현금흐름 ③ 실제 유료 AI 매출입니다.
+
+여러분은 ‘성장’과 ‘거품’ 중 어느 쪽에 무게를 두시나요? 댓글에 한 단어로 남겨주세요. 나중에 비교할 수 있도록 저장해 두세요.
+
+@wallga.morning
+※ 투자 권유가 아닌 정보 제공 목적입니다. 언급 종목이 모두 뉴스의 직접 수혜를 받는다는 뜻은 아닙니다.
+
+보도(2026.10.10): https://www.marketwatch.com/story/what-you-dont-know-is-greater-than-anything-you-do-know-how-ray-dalio-would-build-a-portfolio-to-withstand-a-popping-ai-bubble-2491ac6b
+발언(2026.10.07): https://www.bloomberg.com/news/articles/2026-10-07/ray-dalio-warns-ai-bubble-is-approaching-burst-point
+종가(2026.10.09): https://apnews.com/article/dafbd0c4037ee10e2a9e305f3cfa8e70
+
+표지 자료사진: Wikimedia Commons, Cbrasil0, CC BY-SA 4.0. AI로 생성한 데이터센터 이미지이며 실제 현장 사진이 아닙니다. 크롭·색상·그라데이션·문구 편집, CC BY-SA 4.0 적용. 원작: https://commons.wikimedia.org/wiki/File:DALL%C2%B7E_2025-01-31_21.58.22_-_A_realistic_image_of_the_interior_of_a_modern_data_center._The_scene_features_long_rows_of_tall,_sleek_server_racks_filled_with_blinking_LED_lights._T.webp
+라이선스: https://creativecommons.org/licenses/by-sa/4.0/

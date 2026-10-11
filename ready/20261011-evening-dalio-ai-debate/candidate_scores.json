@@ -1,0 +1,43 @@
+{
+  "date_kst": "2026-10-11",
+  "slot": "evening",
+  "weights": {
+    "interest": 30,
+    "stock_relevance": 25,
+    "surprise": 20,
+    "freshness": 15,
+    "save_value": 10
+  },
+  "scores": [
+    {
+      "headline": "레이 달리오 AI 거품 경고와 10월 9일 나스닥 상승",
+      "source": "https://www.marketwatch.com/story/what-you-dont-know-is-greater-than-anything-you-do-know-how-ray-dalio-would-build-a-portfolio-to-withstand-a-popping-ai-bubble-2491ac6b",
+      "published_at": "2026-10-10",
+      "strategy": "investor_conflict",
+      "score": {
+        "interest": 27,
+        "stock_relevance": 23,
+        "surprise": 17,
+        "freshness": 14,
+        "save_value": 10
+      },
+      "total": 91,
+      "decision": "SELECT"
+    },
+    {
+      "headline": "AI 관련 부채 발행 감소",
+      "source": "https://www.ft.com/content/9c13d40e-d2b2-45d5-921c-a68cd4b308f9",
+      "published_at": "2026-10-10",
+      "decision": "REVIEW",
+      "reason": "세부 수치 원자료 접근과 확인이 부족해 금회 게시 보류"
+    },
+    {
+      "headline": "SpaceX 주파수 매입과 통신업체 충격",
+      "source": "https://www.investopedia.com/5-things-to-know-before-the-stock-market-opens-on-friday-october-9-2026-12165764",
+      "published_at": "2026-10-09",
+      "decision": "DUPLICATE_AVOID",
+      "reason": "images 저장소의 기존 incoming/spacex-mobile-spectrum-20261011 주제와 중복 가능"
+    }
+  ],
+  "scoring_note": "편집 판단에 따른 휴리스틱 점수이며 검증된 정량 통계나 투자 성과 예측이 아님"
+}
