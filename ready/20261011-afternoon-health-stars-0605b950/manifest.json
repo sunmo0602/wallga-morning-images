@@ -1,0 +1,80 @@
+{
+  "album_id": "20261011-afternoon-health-stars-0605b950",
+  "ready_to_publish": true,
+  "brand": "wallga.morning",
+  "story_id": "wm-health-stars-20261009-b950-0605",
+  "slot": "afternoon",
+  "strategy_id": "stock_discovery",
+  "visual_template": "photo_black_gradient_white_editorial_v1",
+  "cover_brand_position": "bottom_right",
+  "slides": 7,
+  "news_score": 83,
+  "news_score_breakdown": {
+    "interest": 25,
+    "stock_relevance": 24,
+    "surprise": 18,
+    "freshness": 7,
+    "save_value": 9
+  },
+  "hook_question": "미국 보험사, 별점 하나가 실적을 바꿀까?",
+  "editorial_angle": "Medicare Advantage 품질 평가가 보험사 실적에 연결되는 경로와 2028년 보너스 시간차를 비교한다.",
+  "freshness_hours": 54,
+  "freshness_note": "10월9일 Humana 공식 발표의 사업·실적 영향 분석. 24~72시간 예외: 10월15일 가입기간 시작에 앞선 보험 산업의 중요한 품질 지표.",
+  "story": {
+    "hook": "미국 보험사에서 별점 하나가 실적을 바꿀 수 있는지 질문한다.",
+    "what": "Humana는 2027년 4점 이상 Medicare Advantage 플랜에 가입자 95%가 속한다고 10월9일 발표했다.",
+    "why": "CMS 품질 평가는 가입자 선택과 정부 품질 보너스 지급에 영향을 주며, 2027년 평가가 2028년 MA 보너스에 영향을 준다.",
+    "so_what": "품질 개선의 실적 반영에는 시간차가 있으며, 의료비 증가나 가입자 구성 변화가 기대 효과를 상쇄할 수 있다.",
+    "stocks": "HUM은 보험과 CenterWell, CVS는 Aetna·약국·Caremark, UNH는 UnitedHealthcare와 Optum으로 사업 노출이 다르다. 모두 MA 관련 기업이며 동반 수혜를 단정하지 않는다.",
+    "risk_next": "의료비 비율·가입자 구성·MA 마진·정부 지급률·2028년 보너스 전망을 확인한다."
+  },
+  "facts_verified": true,
+  "image_rights_verified": true,
+  "duplicate_checked": true,
+  "duplicate_check_method": "최근 대화 제작·게시 주제 검색과 제공된 슬롯 이력 대조; 같은 Humana/Aetna 2027 별점 주제 미확인. 전체 Instagram 직접 조회는 수행하지 않음.",
+  "caption_characters": 424,
+  "market_close": false,
+  "sources": [
+    {
+      "url": "https://policy.humana.com/news-and-resources/news-press/2026/humana-announces-improved-cms-star-ratings-with-95-percent-of",
+      "published_at": "2026-10-09"
+    },
+    {
+      "url": "https://www.cms.gov/newsroom/fact-sheets/2027-medicare-advantage-part-d-star-ratings",
+      "published_at": "2026-10-08"
+    },
+    {
+      "url": "https://investors.cvshealth.com/news/news-details/2026/Aetna-2027-Star-Ratings-Reflect-Strong-Clinical-Quality-and-Member-Experience/",
+      "published_at": "2026-10-08"
+    },
+    {
+      "url": "https://www.unitedhealthgroup.com/uhg/businesses.html",
+      "published_at": null,
+      "accessed_at": "2026-10-11"
+    },
+    {
+      "url": "https://www.cvshealth.com/",
+      "published_at": null,
+      "accessed_at": "2026-10-11"
+    },
+    {
+      "url": "https://policy.humana.com/centerwell",
+      "published_at": null,
+      "accessed_at": "2026-10-11"
+    }
+  ],
+  "image_rights": {
+    "type": "AI-generated symbolic image",
+    "generator": "ChatGPT imagegen",
+    "third_party_photo": false,
+    "disclosure_on_cover": true,
+    "disclosure_in_caption": true,
+    "no_real_location_or_document_claim": true
+  },
+  "qa": {
+    "jpeg_dimensions": "1080x1350",
+    "all_seven_uploaded_sha_verified": true,
+    "korean_layout_reviewed": true,
+    "caption_under_700": true
+  }
+}
