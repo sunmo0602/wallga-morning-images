@@ -1,0 +1,65 @@
+{
+  "evaluated_kst": "2026-10-11T12:43:00+09:00",
+  "weights": {
+    "interest": 30,
+    "stock_relevance": 25,
+    "surprise": 20,
+    "freshness": 15,
+    "save_value": 10
+  },
+  "candidates": [
+    {
+      "title": "SpaceX 800MHz 주파수 인수에 통신3사 급락",
+      "scores": {
+        "interest": 29,
+        "stock_relevance": 25,
+        "surprise": 20,
+        "freshness": 12,
+        "save_value": 9
+      },
+      "total": 95,
+      "decision": "selected",
+      "reason": "미국 통신사 급락과 타워주 반등, 10월 9일 시장반응, 사업 차이 5종 분석"
+    },
+    {
+      "title": "Nvidia의 Reflection AI 투자·인수 논의",
+      "scores": {
+        "interest": 28,
+        "stock_relevance": 24,
+        "surprise": 18,
+        "freshness": 15,
+        "save_value": 7
+      },
+      "total": 92,
+      "decision": "excluded",
+      "reason": "최근 NVDA 게시 후 7일 이내 기업 중복; 인수 미확정"
+    },
+    {
+      "title": "Lumentum AI 광부품 2029년 공급 부족",
+      "scores": {
+        "interest": 25,
+        "stock_relevance": 25,
+        "surprise": 17,
+        "freshness": 10,
+        "save_value": 9
+      },
+      "total": 86,
+      "decision": "hold",
+      "reason": "광통신 관련주 발굴 가능하지만 스페이스X 뉴스 대비 시장 파급력이 작음"
+    },
+    {
+      "title": "OpenAI 연환산 매출 50B vs 비교치 70B",
+      "scores": {
+        "interest": 27,
+        "stock_relevance": 23,
+        "surprise": 19,
+        "freshness": 8,
+        "save_value": 9
+      },
+      "total": 86,
+      "decision": "hold",
+      "reason": "10월8일 정보, 숫자 차이는 회계 비교 기준 차이로 오해 소지 주의"
+    }
+  ],
+  "note": "모든 점수는 편집자의 내부 휴리스틱이며 플랫폼 공식 추천 점수가 아니다."
+}
