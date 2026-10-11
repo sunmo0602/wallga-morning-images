@@ -1,0 +1,49 @@
+{
+  "album_id": "wallga-20261011-1930-fundflows",
+  "story_id": "wm-us-fundflows-week-20261007",
+  "brand": "wallga.morning",
+  "slot": "evening",
+  "slot_time": "2026-10-11T19:30:00+09:00",
+  "ready_to_publish": true,
+  "slides": 8,
+  "strategy_id": "money_flow",
+  "news_score": 90,
+  "news_score_breakdown": {
+    "interest": 27,
+    "stock_relevance": 24,
+    "surprise": 18,
+    "freshness": 12,
+    "save_value": 9
+  },
+  "hook_question": "주식형 펀드에서 51억 달러 빠졌는데 기술엔 돈이 몰렸다?",
+  "editorial_angle": "미국 주식형 펀드 전체의 순유출과 기술·유틸리티·산업재 섹터 순유입을 비교하여 일괄 위험 회피와 선별적 투자 사이의 차이를 설명한다.",
+  "freshness_hours": 48,
+  "visual_template": "photo_black_gradient_white_editorial_v1",
+  "cover_brand_position": "bottom_right",
+  "facts_verified": true,
+  "image_rights_verified": true,
+  "image_rights_notes": "Cover generated with ImageGen for this task and labeled AI-generated; slides 2–8 inspected and contain plain typography/cards only, no third-party photos.",
+  "duplicate_checked": true,
+  "market_close": false,
+  "source_url": "https://www.reuters.com/business/us-equity-funds-witness-first-weekly-outflow-three-weeks-2026-10-09/",
+  "sources": [
+    {
+      "url": "https://www.reuters.com/business/us-equity-funds-witness-first-weekly-outflow-three-weeks-2026-10-09/",
+      "published_at": "2026-10-09T10:54:34Z",
+      "observation_period_end": "2026-10-07"
+    },
+    {
+      "url": "https://www.ssga.com/us/en/intermediary/capabilities/equities/sector-investing/select-sector-etfs",
+      "published_at": "2026-10-11",
+      "date_type": "accessed"
+    }
+  ],
+  "story": {
+    "hook": "주식형 펀드에서 자금이 빠졌지만 특정 섹터에는 돈이 들어왔다는 반전과 의미를 질문한다.",
+    "what": "10월 9일 공개된 LSEG Lipper 기반 보도에서 10월 7일 종료 주간 미국 주식형 펀드의 51.1억 달러 순유출을 확인했다.",
+    "why": "전체 주식형 펀드와 섹터 펀드는 집계 범위가 다르므로 위험 축소와 선별적 투자가 함께 나타날 수 있다.",
+    "so_what": "자금 흐름의 방향만으로 시장 전체에 대한 매도나 특정 섹터의 향후 주가 상승을 단정할 수 없다.",
+    "stocks": "XLK는 기술, XLU는 유틸리티, XLI는 산업재 섹터에 노출되며 SPY는 대형주 시장 전반을 담는 비교 대상이다.",
+    "risk_next": "펀드 순유입은 가격 상승을 보장하지 않으며 금리와 실적 및 밸류에이션과 다음 주 자금 흐름을 함께 확인해야 한다."
+  }
+}
