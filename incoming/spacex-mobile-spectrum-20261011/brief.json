@@ -1,0 +1,18 @@
+{
+  "album_id": "spacex-mobile-spectrum-20261011",
+  "strategy_id": "winners_losers",
+  "headline": "스페이스X 주파수 인수에 통신 3사가 급락한 이유",
+  "news_score": 95,
+  "news_score_breakdown": {
+    "interest": 29,
+    "stock_relevance": 25,
+    "surprise": 20,
+    "freshness": 12,
+    "save_value": 9
+  },
+  "source_urls": [
+    "https://graingp.com/grain-management-announces-definitive-agreement-to-sell-nationwide-800-mhz-spectrum-portfolio-to-spacex/",
+    "https://www.reuters.com/business/media-telecom/us-european-telecom-stocks-slide-spacex-spectrum-deal-rattles-sector-2026-10-09/"
+  ],
+  "slides": 6
+}
