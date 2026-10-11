@@ -1,0 +1,22 @@
+구글이 10월 8일 기업 업무용 범용 AI 에이전트 'Gemini agent'를 발표했습니다.
+
+이제 AI는 질문에 답하는 수준을 넘어, 업무 계획부터 문서 작성과 코딩까지 실제 작업을 수행하는 방향으로 발전하고 있습니다.
+
+함께 볼 미국주식:
+GOOGL — 발표 주체, Google Cloud와 Workspace
+MSFT — Copilot·기업용 소프트웨어 경쟁
+AMZN — AWS 기업용 AI·클라우드
+CRM — Salesforce Agentforce
+NOW — ServiceNow 기업 업무 자동화
+
+위 기업들이 모두 이번 발표의 직접 수혜를 받는다는 뜻은 아닙니다. 기업 도입률, 유료 고객, 보안, AI 운영비용을 함께 확인해야 합니다.
+
+다음에 비교할 AI 관련주는? 댓글로 알려주세요.
+
+@wallga.morning
+#미국주식 #구글 #GOOGL #MSFT #AMZN #CRM #NOW #AI에이전트
+※ 투자 권유가 아닌 정보 제공 목적입니다.
+원문: https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026
+발표: 2026.10.08
+표지 자료사진: Wikimedia Commons, File:DALL·E 2025-01-31 21.58.22 - A realistic image of the interior of a modern data center. The scene features long rows of tall, sleek server racks filled with blinking LED lights. T.webp, Cbrasil0, cc by-sa 4.0. 사진 크롭·그라데이션 편집. 구글 공식 행사 사진 아님.
+https://commons.wikimedia.org/wiki/File:DALL·E_2025-01-31_21.58.22_-_A_realistic_image_of_the_interior_of_a_modern_data_center._The_scene_features_long_rows_of_tall,_sleek_server_racks_filled_with_blinking_LED_lights._T.webp
